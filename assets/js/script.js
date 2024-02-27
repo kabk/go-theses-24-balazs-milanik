@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const loadedSVGs = [];
 
       // Load each SVG file into the side div
-      for (let i = 1; i < 10; i++) {
+      for (let i = 0; i < 10; i++) {
           const index = startIndex + i;
           if (index >= svgFiles.length) break;
 
@@ -127,13 +127,10 @@ document.addEventListener('DOMContentLoaded', function() {
           svgObject.data = svgPath;
 
           // Apply styles to the SVG object
-          svgObject.style.Height = '100%';
-          svgObject.style.width = '100%';
-          // svgObject.style.backgroundColor = "#1c75b";
-          // svgObject.style.color = "grey";
+          svgObject.style.maxHeight = '15vh';
+          svgObject.style.width = '20vw';
           svgObject.style.position = 'sticky';
           svgObject.style.top = '0';
-          // svgObject.style.preserveAspectRatio="none"
 
           // Append the SVG object to the side div
           sideDiv.appendChild(svgObject);
@@ -148,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Array to hold the names of SVG files
   const svgFiles = [];
-  for (let i = 900; i <= 1000; i++) {
+  for (let i = 1; i <= 1200; i++) {
       svgFiles.push(`a${i}.svg`);
   }
 
@@ -159,7 +156,19 @@ document.addEventListener('DOMContentLoaded', function() {
       // Load SVGs into the side div
       loadSVGsIntoSide(sideDiv, svgFiles);
   });
+
+  // Create a temporary div for SVGs within .site
+  const siteGraphicsDiv = document.createElement('div');
+  siteGraphicsDiv.classList.add('side_graphics');
+
+  // Get the height of the sibling .main div
+  const mainDivHeight = document.querySelector('.main').clientHeight;
+  siteGraphicsDiv.style.height = mainDivHeight + 'px';
+
+  // Append the temporary div to .site
+  document.querySelector('.site').appendChild(siteGraphicsDiv);
 });
+
 
 // $(document).ready(function() {
 

@@ -108,7 +108,7 @@ p:hover {
   font-weight: 900;
   font-style: normal;
   color: whitesmoke;
-  width: 25vw;
+  width: 20vw;
   left: 0;
   border: 1pt black solid;
 }
@@ -119,7 +119,7 @@ p:hover {
   font-style: normal;
   background-color: gray;
   color: black;
-  width: 75vw;
+  width: 100%;
   margin-left: 0;
   border: 1pt black solid;
 }
@@ -350,6 +350,16 @@ svg {
   box-sizing: border-box;
 }
 
+.line {
+  width: 10vw;
+  height: 100vh;
+  background-color: red;
+  /* z-index: 999; */
+  position: fixed;
+  margin-left: 45%;
+  margin: right 45%;
+}
+
 /* .section_1 {
   border-left: 1pt solid red;
   border-right: 1pt solid red;
@@ -357,12 +367,13 @@ svg {
 
 li {
   /* float: left; */
+  /* background-color: black; */
   position: absolute;
   scroll-snap-align: start;
   font-size: 0;
   max-width: 100vw;
   box-sizing: border-box;
-  height: 95vh;
+  /* height: 95vh; */
 }
 
 li:nth-of-type(1) {
@@ -409,7 +420,7 @@ li:nth-of-type(7) {
   /* height: auto; */
   width: 20vw;
   /* border: rgb(50, 50, 50) 1pt solid; */
-  background-color: grey;
+  background-color: black;
   border-radius: 1vh;
   box-sizing: border-box;
   flex: 0 0 auto;
@@ -420,13 +431,13 @@ li:nth-of-type(7) {
   /* max-height: 10vh; */
   /* position: absolute; */
   /* Reset any styles that might affect the appearance of SVG */
-  background-color: transparent; /* Reset background color */
+  background-color: transparent;
   color: inherit; /* Inherit color */
   fill: gray; /* Use current color for fill */
   stroke: currentColor; /* Use current color for stroke */
 }
 
-.side h2 {
+.row .side:nth-of-type(2) h2{
   z-index: 999;
   max-width: auto;
   position: sticky;
@@ -435,7 +446,30 @@ li:nth-of-type(7) {
   font-family: "eurostile-extended", sans-serif;
   font-weight: 900;
   font-style: normal;
-  min-width: 20vw;
+  font-size: 1.3rem;
+  padding-top: 4vh;
+  display: block;
+  line-height: 125%;
+  height: fit-content;
+  padding-bottom: 4vh;
+  /* min-width: 20vw; */
+}
+
+.side h2 {
+  z-index: 999;
+  align-items: center;
+  font-size: 6vh;
+  background-color: #1c75bc;
+  color: whitesmoke;
+  border-radius: 1vh;
+  height: 10vh;
+  font-family: "Eurostile Extended";
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 1vw;
 }
 
 .graphics_column {
@@ -610,6 +644,10 @@ summary {
 
   .side {
     max-width: 20vw;
+  }
+
+  .side_graphics {
+    overflow: hidden;
   }
 
   .main {
