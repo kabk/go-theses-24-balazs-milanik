@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26.61 205.64">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-width: .4px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #231f20;
+      }
+
+      .cls-3 {
+        stroke-width: 4px;
+      }
+
+      .cls-4 {
+        fill: #8b5e3c;
+        stroke: url(#Scotch_Rule_2);
+        stroke-miterlimit: 10;
+      }
+    </style>
+    <pattern id="Scotch_Rule_2" data-name="Scotch Rule 2" x="0" y="0" width="70.8" height="72" patternTransform="translate(-994.28 -1259.61)" patternUnits="userSpaceOnUse" viewBox="0 0 70.8 72">
+      <g>
+        <rect class="cls-1" x="0" width="70.8" height="72"/>
+        <line class="cls-2" x1="35.4" y1="72" x2="35.4"/>
+        <line class="cls-2" x1="11.8" y1="72" x2="11.8"/>
+        <line class="cls-2" x1="59" y1="72" x2="59"/>
+        <line class="cls-3" x1="30.8" y1="72" x2="30.8"/>
+        <line class="cls-3" x1="7.2" y1="72" x2="7.2"/>
+        <line class="cls-3" x1="54.4" y1="72" x2="54.4"/>
+        <line class="cls-3" x1="16.4" y1="72" x2="16.4"/>
+        <line class="cls-3" x1="40" y1="72" x2="40"/>
+        <line class="cls-3" x1="63.6" y1="72" x2="63.6"/>
+      </g>
+    </pattern>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-4" x=".5" y=".5" width="25.61" height="204.64"/>
+  </g>
+</svg>
