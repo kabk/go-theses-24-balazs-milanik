@@ -127,9 +127,13 @@ document.addEventListener('DOMContentLoaded', function() {
           svgObject.data = svgPath;
 
           // Apply styles to the SVG object
-          svgObject.style.maxHeight = '5vh';
+          svgObject.style.Height = '100%';
+          svgObject.style.width = '100%';
+          // svgObject.style.backgroundColor = "#1c75b";
+          // svgObject.style.color = "grey";
           svgObject.style.position = 'sticky';
           svgObject.style.top = '0';
+          // svgObject.style.preserveAspectRatio="none"
 
           // Append the SVG object to the side div
           sideDiv.appendChild(svgObject);
@@ -157,4 +161,11 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+// $(document).ready(function() {
 
+//   var side = $('.side');
+//   var main = $('.main');
+
+//   side.height(main.height());
+
+// });

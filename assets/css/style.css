@@ -96,7 +96,7 @@ p:hover {
 .title {
   /* position: fixed; */
   display: flex;
-  width: 100vw;
+  /* width: 100vw; */
   background-color: black;
   box-sizing: border-box;
   /* border-top: solid #d9381e 1pt; */
@@ -284,7 +284,7 @@ blockquote {
 }
 
 svg {
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   background-color: gray;
   max-height: 10vh;
@@ -345,6 +345,7 @@ svg {
   width: 100vw;
   position: fixed;
   border: 1pt whitesmoke solid;
+  background-color: rgba(50, 50, 50);
   bottom: 0;
   box-sizing: border-box;
 }
@@ -393,24 +394,48 @@ li:nth-of-type(7) {
 }
 
 .row {
-  /* flex-direction: row;
-  flex-wrap: wrap; */
   display: flex;
-  width: 100%;
   height: auto;
-  /* background-color: #D9381E; */
   box-sizing: border-box;
+  align-items: stretch;
+  position: relative;
+  /* overflow: hidden; */
 }
 
 .side {
   /* background-color: gray; */
-  /* max-height: 100vh; */
-  height: auto;
-  width: 25%;
-  /* border: #d9381e 1pt solid; */
+  /* max-height: fit-content; */
+  /* padding-top: 4vh; */
+  /* height: auto; */
+  width: 20vw;
+  /* border: rgb(50, 50, 50) 1pt solid; */
+  background-color: grey;
   border-radius: 1vh;
   box-sizing: border-box;
+  flex: 0 0 auto;
   /* background-color: green; */
+}
+
+.side object {
+  /* max-height: 10vh; */
+  /* position: absolute; */
+  /* Reset any styles that might affect the appearance of SVG */
+  background-color: transparent; /* Reset background color */
+  color: inherit; /* Inherit color */
+  fill: gray; /* Use current color for fill */
+  stroke: currentColor; /* Use current color for stroke */
+}
+
+.side h2 {
+  z-index: 999;
+  max-width: auto;
+  position: sticky;
+  top: 0;
+  left: 0;
+  font-family: "eurostile-extended", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  min-width: 20vw;
 }
 
 .graphics_column {
@@ -429,41 +454,26 @@ li:nth-of-type(7) {
   right: 0;
 }
 
-.side svg {
-  /* max-height: 10vh; */
-  /* Reset any styles that might affect the appearance of SVG */
-  background-color: transparent; /* Reset background color */
-  color: inherit; /* Inherit color */
-  fill: gray; /* Use current color for fill */
-  stroke: currentColor; /* Use current color for stroke */
-}
-
-.side h2 {
-  z-index: 999;
-  max-width: auto;
-  position: sticky;
-  top: 0;
-  left: 0;
-}
-
 .main {
-  height: 100vh;
+  height: fit-content;
   background-color: gray;
-  color: black;
+  border-top: 1pt solid rgba(50, 50, 50);
+  color: rgba(50, 50, 50);
   line-height: 125%;
   hyphens: auto;
   font-size: 1.4rem;
-  display: relative;
+  /* position: sticky; */
+  top: 0;
   /* text-align: justify; */
   font-family: "eurostile", sans-serif;
   font-weight: 400;
   font-style: normal;
   /* margin-left: 25%; */
   /* margin-right: 25%; */
-  width: 50vw;
+  width: 60vw;
   /* max-height: 100vh; */
   box-sizing: border-box;
-  padding-bottom: 8vh;
+  padding-bottom: 4vh;
   padding-top: 4vh;
   padding-left: 2vw;
   padding-right: 2vw;
@@ -578,17 +588,44 @@ summary {
     display: none;
   }
 
+  .title h2:nth-of-type(1) {
+    max-width: 20vw;
+  }
+
+  .title h2:nth-of-type(2) {
+    width: 100%;
+  }
+
+  .row h2 {
+    /* max-width: 20vw; */
+  }
+
+  .row .side:nth-last-of-type(1) {
+    /* display: none; */
+  }
+
+  h2 {
+    font-size: 5vh;
+  }
+
+  .side {
+    max-width: 20vw;
+  }
+
   .main {
     /* background-color: black;
     color: whitesmoke; */
     /* max-width: 100vw; */
-    width: auto;
-    font-size: 0.9rem;
+    /* width: 60vw; */
+    font-size: 0.8rem;
+    padding-left: 2vw;
+    padding-right: 2vw;
     line-height: 125%;
     hyphens: auto;
+    text-align: center;
     /* text-justify: justify; */
     /* text-align: justify; */
-    top: 0;
+    /* top: 0; */
     /* margin-left: 10vw;
     margin-right: 10vw; */
   }
