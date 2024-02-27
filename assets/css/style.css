@@ -393,8 +393,8 @@ li:nth-of-type(7) {
 }
 
 .row {
-  flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
   display: flex;
   width: 100%;
   height: auto;
