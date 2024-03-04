@@ -138,7 +138,7 @@ p:hover {
   font-family: "eurostile-extended", sans-serif;
   font-weight: 900;
   font-style: normal;
-  background-color:#1c75bc;
+  background-color: #1c75bc;
   color: whitesmoke;
   width: 15vw;
   margin-left: 0;
@@ -161,15 +161,15 @@ p:hover {
 }
 
 .sub_chapter h2 {
-/* padding-left: 5vw; */
-background-color: gray;
-font-family: "eurostile-extended", sans-serif;
-font-weight: 900;
-font-style: normal;
-color: black;
-/* margin-left: 11vw; */
-/* margin-right: 11vw; */
-justify-content: center;
+  /* padding-left: 5vw; */
+  background-color: gray;
+  font-family: "eurostile-extended", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: black;
+  /* margin-left: 11vw; */
+  /* margin-right: 11vw; */
+  justify-content: center;
 }
 
 /* h1 {
@@ -254,7 +254,7 @@ figure video {
 }
 
 figcaption {
-  background-color:#1c75bc;
+  background-color: #1c75bc;
   color: aliceblue;
   padding-left: 5vw;
   padding-right: 5vw;
@@ -287,7 +287,7 @@ header {
   height: 4.5vh;
   width: 4.5vh;
   border-radius: 50%;
-  background-color:#1c75bc;
+  background-color: #1c75bc;
   border: 1pt solid black;
 }
 
@@ -508,7 +508,7 @@ li:nth-of-type(7) {
   border-top: 1pt black solid;
   background-color: transparent;
   color: inherit; /* Inherit color */
- /* Use current color for fill */
+  /* Use current color for fill */
   stroke: currentColor; /* Use current color for stroke */
 }
 
@@ -558,19 +558,19 @@ li:nth-of-type(7) {
 }
 
 .center .side {
-display: flex;
-border-radius: 1vh;
-justify-content: space-around;
-position: sticky;
-top: 0;
-min-width: 70vw;
-max-height: 5vh;
-/* margin-left: 10vw; */
-/* width: 70vw; */
-/* background-color: gray; */
-overflow: hidden;
-border-bottom: 2pt black solid;
-border-top: 2pt black solid;
+  display: flex;
+  border-radius: 1vh;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  min-width: 70vw;
+  max-height: 5vh;
+  /* margin-left: 10vw; */
+  /* width: 70vw; */
+  /* background-color: gray; */
+  overflow: hidden;
+  border-bottom: 2pt black solid;
+  border-top: 2pt black solid;
 }
 
 /* .graphics_column {
@@ -681,12 +681,20 @@ summary {
 
   /* utility classes, mobile */
 
+  .sub_chapter h2 {
+    font-size: 4vh;
+  }
+
+  li {
+    overflow-x: hidden;
+  }
+
   #slider {
-    display: block;
+    /* display: block; */
   }
 
   header .dot {
-    display: none;
+    /* display: none; */
   }
 
   #map {
@@ -721,7 +729,6 @@ summary {
   }
 
   .line {
-    
   }
 
   .title h2:nth-of-type(1) {
@@ -736,8 +743,8 @@ summary {
     /* max-width: 20vw; */
   }
 
-  .row .side:nth-last-of-type(1) {
-    /* display: none; */
+  .row .side:nth-last-of-type(3) {
+    /* overflow-x: auto; */
   }
 
   h2 {
@@ -746,15 +753,14 @@ summary {
 
   .side {
     width: 5vw;
-    /* overflow-x: hidden; */
   }
 
   .side_graphics {
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .side h2 {
-    font-size: 5vh;
+    font-size: 4vh;
     width: 15vw;
   }
 
@@ -799,7 +805,7 @@ summary {
   }
 
   figure {
-    /* width: 80vw; */
+    width: 70vw;
   }
 
   figure img {
@@ -812,6 +818,7 @@ summary {
 
   figcaption {
     font-size: 0.8rem;
+    min-width: 70vw;
   }
 
   .desktop-only {
