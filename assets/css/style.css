@@ -536,6 +536,7 @@ li:nth-of-type(7) {
   position: sticky;
   top: 0;
   display: flex;
+  text-align: right;
   /* padding-left: 1vw; */
 }
 
@@ -675,6 +676,7 @@ summary {
   /* utility classes, mobile */
 
   .sub_chapter h2 {
+    text-align: center;
     font-size: 3vh;
     height: auto;
     padding-bottom: 1vh;
