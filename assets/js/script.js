@@ -1,43 +1,22 @@
 // if you use jQuery, you need to start your .js file with this.
 // otherwise you can delete everything here.
 $(document).ready(function () {
-  let seconds = 0;
-  let clockElement = document.querySelector(".clock");
-
-  function updateClock() {
-    const minutes = Math.floor(seconds / 60);
-    const remainingSeconds = seconds % 60;
-
-    const formattedTime = `${String(minutes).padStart(2, "0")}:${String(
-      remainingSeconds
-    ).padStart(2, "0")}`;
-    clockElement.textContent = formattedTime;
-
-    seconds++;
-  }
-
-  // $(".slider").on("click", function () {
-  //   $("#map").slideToggle("slow", function () {
-  //     let map = document.getElementById("#map");
-  //     map.style.
-  //     setTimeout(() => {
-  //     }, 2500);
-  //   });
-  // });
-
   const dotElements = document.querySelectorAll(".dot");
+  
   dotElements.forEach((dot) => {
-    dot.addEventListener("click", resetClock);
+    dot.addEventListener("click", function() {
+      resetActiveDots();
+      dot.classList.add("active");
+      slideDoors(); // Call the sliding doors function
+    });
   });
-
-  function resetClock() {
-    slideDoors();
-    setTimeout(() => {
-      seconds = 0;
-      updateClock();
-    }, 2500);
+  
+  function resetActiveDots() {
+    dotElements.forEach((dot) => {
+      dot.classList.remove("active");
+    });
   }
-
+  
   function slideDoors() {
     const door1 = document.getElementById("door_1");
     const door2 = document.getElementById("door_2");
@@ -48,24 +27,9 @@ $(document).ready(function () {
     setTimeout(() => {
       door1.style.left = "-50vw";
       door2.style.right = "-50vw";
-      map.style.display = "none";
+      map.style.display = "none"; // Ensure this line works correctly
     }, 2500);
   }
-
-  // const visualElements = document.querySelectorAll('.visual');
-  // visualElements.forEach((visual) => {
-  //     visual.addEventListener('click', reveal);
-  // });
-
-  // function reveal() {
-  // }
-
-  // $(".visual").click(function(){
-  //     $('figure').slideToggle();
-  //   });
-
-  // Update the clock every second
-  setInterval(updateClock, 1000);
 });
 
 function scrollToSection(sectionIndex) {
@@ -109,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const loadedSVGs = [];
 
       // Load each SVG file into the side div
-      for (let i = 0; i < 10; i++) {
+      for (let i = 0; i < 5; i++) {
           const index = startIndex + i;
           if (index >= svgFiles.length) break;
 
@@ -127,8 +91,8 @@ document.addEventListener('DOMContentLoaded', function() {
           svgObject.data = svgPath;
 
           // Apply styles to the SVG object
-          svgObject.style.maxHeight = '15vh';
-          svgObject.style.width = '20vw';
+          svgObject.style.height = '15vh';
+          svgObject.style.width = '15vw';
           svgObject.style.position = 'sticky';
           svgObject.style.top = '0';
 
@@ -145,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Array to hold the names of SVG files
   const svgFiles = [];
-  for (let i = 1; i <= 1200; i++) {
+  for (let i = 500; i <= 1200; i++) {
       svgFiles.push(`a${i}.svg`);
   }
 
