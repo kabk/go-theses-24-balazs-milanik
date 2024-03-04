@@ -115,7 +115,6 @@ p:hover {
   width: 15vw;
   left: 0;
   justify-content: center;
-  /* border: 1pt black solid; */
 }
 
 .chapter h2:nth-of-type(2) {
@@ -127,11 +126,6 @@ p:hover {
   width: 70vw;
   margin-left: 0;
   justify-content: center;
-  /* border: 1pt black solid; */
-  /* margin-left: 15vw; */
-  /* padding-left: 16vw; */
-  /* margin-right: 15vw; */
-  /* position: fixed; */
 }
 
 .chapter h2:nth-of-type(3) {
@@ -144,9 +138,6 @@ p:hover {
   margin-left: 0;
   right: 0;
   justify-content: center;
-  /* border: 1pt black solid; */
-  /* margin-left: 15vw; */
-  /* position: fixed; */
 }
 
 .sub_chapter {
@@ -539,8 +530,9 @@ li:nth-of-type(7) {
   color: whitesmoke;
   /* border-radius: 1vh; */
   height: 10vh;
-  font-family: "Eurostile Extended";
-  font-weight: bold;
+  font-family: "eurostile", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   position: sticky;
   top: 0;
   display: flex;
@@ -613,6 +605,7 @@ li:nth-of-type(7) {
   font-weight: bold;
   z-index: 999;
   margin-top: 1vh;
+  margin-bottom: 1vh;
 }
 
 .main .description {
@@ -682,7 +675,9 @@ summary {
   /* utility classes, mobile */
 
   .sub_chapter h2 {
-    font-size: 4vh;
+    font-size: 3vh;
+    height: auto;
+    padding-bottom: 1vh;
   }
 
   li {
@@ -760,8 +755,11 @@ summary {
   }
 
   .side h2 {
-    font-size: 4vh;
+    font-size: 3vh;
     width: 15vw;
+    height: auto;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
   }
 
   .center {
