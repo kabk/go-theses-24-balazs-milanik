@@ -684,6 +684,7 @@ summary {
 
   li {
     overflow-x: hidden;
+    height: 95vh;
   }
 
   #slider {
