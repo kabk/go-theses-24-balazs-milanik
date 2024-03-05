@@ -52,7 +52,7 @@ function toggleDescription(index) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  // Function to load SVG files into a side div
+  // Function to load SVG files into a side div as images
   function loadSVGsIntoSide(sideDiv, svgFiles) {
       // Directory path for the SVG files
       const directoryPath = "assets/graphics/Assets/";
@@ -85,19 +85,18 @@ document.addEventListener('DOMContentLoaded', function() {
               continue;
           }
 
-          // Create an object element to embed the SVG
-          const svgObject = document.createElement('object');
-          svgObject.type = 'image/svg+xml';
-          svgObject.data = svgPath;
+          // Create an img element to embed the SVG
+          const svgImage = document.createElement('img');
+          svgImage.src = svgPath;
 
-          // Apply styles to the SVG object
-          svgObject.style.height = '15vh';
-          svgObject.style.width = '15vw';
-          svgObject.style.position = 'sticky';
-          svgObject.style.top = '0';
+          // Apply styles to the img element
+          svgImage.style.height = '15vh';
+          svgImage.style.width = '15vw';
+          svgImage.style.position = 'sticky';
+          svgImage.style.top = '0';
 
-          // Append the SVG object to the side div
-          sideDiv.appendChild(svgObject);
+          // Append the img element to the side div
+          sideDiv.appendChild(svgImage);
 
           // Add the loaded SVG filename to the loadedSVGs array
           loadedSVGs.push(svgFiles[index]);

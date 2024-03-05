@@ -493,13 +493,16 @@ li:nth-of-type(7) {
 }
 
 .side object {
-  /* max-height: 10vh; */
-  /* position: absolute; */
-  /* Reset any styles that might affect the appearance of SVG */
   border-top: 1pt black solid;
   background-color: transparent;
   color: inherit; /* Inherit color */
-  /* Use current color for fill */
+  stroke: currentColor; /* Use current color for stroke */
+}
+
+.side img {
+  border-top: 1pt black solid;
+  background-color: transparent;
+  color: inherit; /* Inherit color */
   stroke: currentColor; /* Use current color for stroke */
 }
 
