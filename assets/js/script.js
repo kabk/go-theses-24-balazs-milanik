@@ -129,7 +129,18 @@ document.addEventListener('DOMContentLoaded', function() {
   siteGraphicsDiv.style.height = mainDivHeight + 'px';
 
   // Append the temporary div to .site
-  document.querySelector('.site').appendChild(siteGraphicsDiv);
+  // document.querySelector('.site').appendChild(siteGraphicsDiv);
+});
+
+$(document).ready(function () {
+  const referenceToggles = document.querySelectorAll('.reference-toggle');
+
+  referenceToggles.forEach(toggle => {
+    toggle.addEventListener('click', () => {
+      const reference = toggle.nextElementSibling;
+      reference.classList.toggle('active');
+    });
+  });
 });
 
 

@@ -59,11 +59,11 @@ body {
 
 a {
   color: var(--color-text-link);
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 /* p {
@@ -237,6 +237,7 @@ figure {
 }
 
 figure img {
+  width: 100%;
   padding-bottom: 1vw;
 }
 
@@ -253,6 +254,7 @@ figcaption {
   font-size: 1.3rem;
   max-width: 50vw;
   margin: auto;
+  max-height: 100%;
   line-height: 110%;
   font-family: "eurostile", sans-serif;
   padding-top: 1vh;
@@ -506,6 +508,7 @@ li:nth-of-type(7) {
   stroke: currentColor; /* Use current color for stroke */
 }
 
+
 /* .row .side:nth-of-type(2) h2{
   z-index: 999;
   max-width: auto;
@@ -533,7 +536,7 @@ li:nth-of-type(7) {
   color: whitesmoke;
   /* border-radius: 1vh; */
   height: 10vh;
-  font-family: "eurostile", sans-serif;
+  font-family: "eurostile-extended", sans-serif;
   font-weight: 400;
   font-style: normal;
   position: sticky;
@@ -586,6 +589,7 @@ li:nth-of-type(7) {
 } */
 
 .main {
+  position: relative;
   /* column-count: 2; */
   height: fit-content;
   /* background-color: rgb(205, 205, 205); */
@@ -607,31 +611,54 @@ li:nth-of-type(7) {
   padding-left: 5vw;
   padding-right: 4.2vw;
   font-weight: bold;
-  z-index: 999;
+  z-index: 998;
   margin-top: 1vh;
   margin-bottom: 1vh;
 }
 
-.main .description {
-  color: blue; /* Example color */
-  cursor: pointer; /* Change cursor to pointer on hover */
-  display: none; /* Hide the description by default */
-  transition: max-width 3s ease;
-  font-family: "eurostile", sans-serif;
-  font-weight: 200;
+.reference {
+  /* color:#1c75bc; */
+  overflow: hidden;
+  max-width: 0;
+  max-height: 0;
+  opacity: 0;
+  transition: max-width 0.5s ease; /* Ensures the reference doesn't wrap to the next line */
+  display: inline-flex; /* Use inline-block to allow transitions */
 }
 
-/* Style for the clickable span */
-.main .number {
-  color: blue; /* Example color */
-  cursor: pointer; /* Change cursor to pointer on hover */
+.reference.active {
+  background-color: grey;
+  color: black;
+  /* text-align: justify; */
+  /* overflow: auto; */
+  margin-top: 1vh;
+  /* border-radius: 1vh; */
+  border-left: 4pt black solid;
+  border-right: 4pt black solid;
+  word-break: break-word;
+  line-height: 125%;
+  hyphens: auto;
+  padding-top: 0.5vh;
+  padding-bottom: 1vh;
+  padding-right: 1vh;
+  padding-left: 10px;
+  max-width: 100%; /* Adjust as needed */
+  max-height: 100%; /* Adjust as needed */
+  opacity: 1;
+  font-style: italic;
 }
 
-/* Reveal animation */
-.main .description.reveal {
-  margin-left: 10px;
-  max-width: 100%;
-  display: inline; /* Show the description */
+.reference.active:hover {
+  text-decoration: underline;
+} 
+
+.reference-toggle {
+  cursor: pointer;
+  color: #1c75bc;
+}
+
+.reference-toggle:hover {
+  color: red;
 }
 
 /* PAGE STYLES */
