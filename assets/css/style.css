@@ -251,7 +251,7 @@ figcaption {
   padding-left: 5vw;
   padding-right: 5vw;
   height: auto;
-  font-size: 1.3rem;
+  font-size: 1.12rem;
   max-width: 50vw;
   margin: auto;
   max-height: 100%;
@@ -260,6 +260,10 @@ figcaption {
   padding-top: 1vh;
   padding-bottom: 1.5vh;
   /* background-color: black; */
+}
+
+figcaption .reference-toggle {
+  color: whitesmoke;
 }
 
 header {
@@ -358,7 +362,7 @@ svg {
   /* background-color: aqua; */
   transition: left 0.5s ease-in-out;
   overflow: hidden; /* Ensure SVG doesn't overflow */
-  border: 10pt solid red;
+  /* border: 10pt solid red; */
   border-radius: 10vh;
 }
 
@@ -372,7 +376,7 @@ svg {
   /* background-color: aqua; */
   transition: right 0.5s ease-in-out;
   overflow: hidden; /* Ensure SVG doesn't overflow */
-  border: 10pt solid red;
+  /* border: 10pt solid red; */
   border-radius: 10vh;
 }
 
@@ -386,7 +390,7 @@ svg {
   min-width: 100%;
 }
 
-#wall {
+/* #wall {
   background-color: red;
 }
 
@@ -395,10 +399,9 @@ svg {
   height: 100vh;
   background-color: red;
   position: fixed;
-  /* bottom: 0; */
   display: none;
   z-index: 998;
-}
+} */
 
 .preloader {
   position: fixed;
@@ -484,7 +487,7 @@ li:nth-of-type(1) {
   /* -webkit-animation: linear infinite; */
   -webkit-animation-name: run;
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 2s;
+  -webkit-animation-delay: 0.75s;
   left: 100%;
   animation-fill-mode: forwards;
 }
@@ -683,7 +686,8 @@ li:nth-of-type(7) {
 .reference.active {
   background-color:#1c75bc;
   color: whitesmoke;
-  font-weight: lighter;
+  font-family: "eurostile", sans-serif;
+  font-size: 1.12rem;
   /* text-align: justify; */
   /* overflow: auto; */
   margin-top: 1vh;
@@ -768,9 +772,10 @@ summary {
   }
 
   .wrapper {
-    height: 100vh;
+    height: 95vh;
+    margin-top: 5vh;
   }
-  
+
   /* .preloader {
     display: none;
   } */
@@ -913,6 +918,8 @@ summary {
     font-size: 0.8rem;
     min-width: 90vw;
   }
+
+
 
   .desktop-only {
     display: none;
