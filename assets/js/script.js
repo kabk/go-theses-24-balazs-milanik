@@ -121,8 +121,8 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // Create a temporary div for SVGs within .site
-  const siteGraphicsDiv = document.createElement('div');
-  siteGraphicsDiv.classList.add('side_graphics');
+  // const siteGraphicsDiv = document.createElement('div');
+  // siteGraphicsDiv.classList.add('side_graphics');
 
   // Get the height of the sibling .main div
   const mainDivHeight = document.querySelector('.main').clientHeight;
