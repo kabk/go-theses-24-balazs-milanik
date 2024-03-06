@@ -767,6 +767,10 @@ summary {
     padding-bottom: 1vh;
   }
 
+  .preloader {
+    display: none;
+  }
+
   li {
     overflow-x: hidden;
     height: 95vh;
