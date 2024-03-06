@@ -767,9 +767,9 @@ summary {
     padding-bottom: 1vh;
   }
 
-  .preloader {
+  /* .preloader {
     display: none;
-  }
+  } */
 
   li {
     overflow-x: hidden;
