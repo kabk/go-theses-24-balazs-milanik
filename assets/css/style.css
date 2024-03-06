@@ -362,7 +362,7 @@ svg {
   /* background-color: aqua; */
   transition: left 0.5s ease-in-out;
   overflow: hidden; /* Ensure SVG doesn't overflow */
-  /* border: 10pt solid red; */
+  border: 10pt solid red;
   border-radius: 10vh;
 }
 
@@ -376,8 +376,16 @@ svg {
   /* background-color: aqua; */
   transition: right 0.5s ease-in-out;
   overflow: hidden; /* Ensure SVG doesn't overflow */
-  /* border: 10pt solid red; */
+  border: 10pt solid red;
   border-radius: 10vh;
+}
+
+#door_1.side {
+  background-color: transparent;
+}
+
+#door_2.side {
+  background-color: transparent;
 }
 
 #door_1 img{
@@ -763,6 +771,52 @@ summary {
   /* your 'mobile' overriding css properties here */
 
   /* utility classes, mobile */
+
+  #door_1 {
+    width: 50vw;
+    height: 95vh;
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    left: -50vw;
+    /* background-color: aqua; */
+    transition: left 0.5s ease-in-out;
+    overflow: hidden; /* Ensure SVG doesn't overflow */
+    /* border: 10pt solid red; */
+    border-radius: 5vh;
+  }
+  
+  #door_2 {
+    width: 50vw;
+    height: 95vh;
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    right: -50vw;
+    /* background-color: aqua; */
+    transition: right 0.5s ease-in-out;
+    overflow: hidden; /* Ensure SVG doesn't overflow */
+    /* border: 10pt solid red; */
+    border-radius: 5vh;
+  }
+  
+  #door_1 img{
+    background-color: transparent;
+    min-width: 100%;
+  }
+  
+  #door_2 img{
+    background-color: transparent;
+    min-width: 100%;
+  }
+
+  #door_1.side {
+    display: block;
+  }
+
+  #door_2.side {
+    display: block;
+  }
 
   .sub_chapter h2 {
     text-align: center;

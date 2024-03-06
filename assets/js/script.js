@@ -39,7 +39,7 @@ $(document).ready(function () {
       setTimeout(() => {
           door1.style.left = "-50vw";
           door2.style.right = "-50vw";
-          map.style.display = "none"; // Ensure this line works correctly
+          // map.style.display = "none";
       }, 2500);
   }
 });
