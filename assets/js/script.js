@@ -1,34 +1,46 @@
-// if you use jQuery, you need to start your .js file with this.
-// otherwise you can delete everything here.
+// Display preloader when the document is ready
+$(document).ready(function () {
+  $('.preloader').show();
+});
+
+// Hide preloader when everything is loaded
+$(window).on('load', function () {
+  $('.preloader').fadeOut('slow', function () {
+      $(this).remove(); // Remove the preloader element from the DOM
+      $('.wrapper').fadeIn(); // Show the content
+  });
+});
+
+// Your existing JavaScript code here
 $(document).ready(function () {
   const dotElements = document.querySelectorAll(".dot");
-  
+
   dotElements.forEach((dot) => {
-    dot.addEventListener("click", function() {
-      resetActiveDots();
-      dot.classList.add("active");
-      slideDoors(); // Call the sliding doors function
-    });
+      dot.addEventListener("click", function () {
+          resetActiveDots();
+          dot.classList.add("active");
+          slideDoors(); // Call the sliding doors function
+      });
   });
-  
+
   function resetActiveDots() {
-    dotElements.forEach((dot) => {
-      dot.classList.remove("active");
-    });
+      dotElements.forEach((dot) => {
+          dot.classList.remove("active");
+      });
   }
-  
+
   function slideDoors() {
-    const door1 = document.getElementById("door_1");
-    const door2 = document.getElementById("door_2");
+      const door1 = document.getElementById("door_1");
+      const door2 = document.getElementById("door_2");
 
-    door1.style.left = "0";
-    door2.style.right = "0";
+      door1.style.left = "0";
+      door2.style.right = "0";
 
-    setTimeout(() => {
-      door1.style.left = "-50vw";
-      door2.style.right = "-50vw";
-      map.style.display = "none"; // Ensure this line works correctly
-    }, 2500);
+      setTimeout(() => {
+          door1.style.left = "-50vw";
+          door2.style.right = "-50vw";
+          map.style.display = "none"; // Ensure this line works correctly
+      }, 2500);
   }
 });
 
@@ -36,7 +48,7 @@ function scrollToSection(sectionIndex) {
   const sections = document.querySelectorAll(".wrapper li");
   const targetSection = sections[sectionIndex];
   setTimeout(() => {
-    targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
+      targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
   }, 1500);
 }
 
@@ -46,12 +58,12 @@ function togglediv() {
 }
 
 function toggleDescription(index) {
-    var descriptions = document.querySelectorAll('.main .description');
-    var description = descriptions[index - 1];
-    description.classList.toggle("reveal");
+  var descriptions = document.querySelectorAll('.main .description');
+  var description = descriptions[index - 1];
+  description.classList.toggle("reveal");
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   // Function to load SVG files into a side div as images
   function loadSVGsIntoSide(sideDiv, svgFiles) {
       // Directory path for the SVG files
@@ -119,36 +131,15 @@ document.addEventListener('DOMContentLoaded', function() {
       // Load SVGs into the side div
       loadSVGsIntoSide(sideDiv, svgFiles);
   });
-
-  // Create a temporary div for SVGs within .site
-  // const siteGraphicsDiv = document.createElement('div');
-  // siteGraphicsDiv.classList.add('side_graphics');
-
-  // Get the height of the sibling .main div
-  const mainDivHeight = document.querySelector('.main').clientHeight;
-  siteGraphicsDiv.style.height = mainDivHeight + 'px';
-
-  // Append the temporary div to .site
-  // document.querySelector('.site').appendChild(siteGraphicsDiv);
 });
 
 $(document).ready(function () {
   const referenceToggles = document.querySelectorAll('.reference-toggle');
 
   referenceToggles.forEach(toggle => {
-    toggle.addEventListener('click', () => {
-      const reference = toggle.nextElementSibling;
-      reference.classList.toggle('active');
-    });
+      toggle.addEventListener('click', () => {
+          const reference = toggle.nextElementSibling;
+          reference.classList.toggle('active');
+      });
   });
 });
-
-
-// $(document).ready(function() {
-
-//   var side = $('.side');
-//   var main = $('.main');
-
-//   side.height(main.height());
-
-// });
