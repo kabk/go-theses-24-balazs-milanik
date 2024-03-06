@@ -767,6 +767,10 @@ summary {
     padding-bottom: 1vh;
   }
 
+  .wrapper {
+    height: 100vh;
+  }
+  
   /* .preloader {
     display: none;
   } */
