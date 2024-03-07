@@ -609,8 +609,9 @@ li:nth-of-type(7) {
   justify-content: right;
   padding-right: 1vw;
   font-size: 6vh;
-  background-color: #1c75bc;
-  color: whitesmoke;
+  background-color: rgba(50, 50, 50);
+  /* background-color: #1c75bc; */
+  color: gray;
   /* border-radius: 1vh; */
   height: 10vh;
   font-family: "eurostile-extended", sans-serif;
