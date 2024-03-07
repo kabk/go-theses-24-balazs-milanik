@@ -50,7 +50,6 @@ body {
   width: 100%;
   height: auto;
   overflow-y: auto;
-
   font-size: 14px;
   font-family: Helvetica;
   font-weight: normal;
@@ -454,10 +453,14 @@ svg {
   box-sizing: border-box;
 }
 
+.line {
+  background-color: rgba(50, 50, 50);
+}
+
 .line:nth-of-type(1) {
   width: 5vw;
   height: 100vh;
-  background-color: gray;
+  /* background-color: gray; */
   /* z-index: 999; */
   position: fixed;
   margin-left: 25vw;
@@ -466,7 +469,7 @@ svg {
 .line:nth-of-type(2) {
   width: 5vw;
   height: 100vh;
-  background-color: gray;
+  /* background-color: gray; */
   /* z-index: 999; */
   position: fixed;
   margin-right: 25vw;
@@ -550,7 +553,8 @@ li:nth-of-type(7) {
   /* height: auto; */
   width: 15vw;
   /* border: rgb(50, 50, 50) 1pt solid; */
-  background-color: gray;
+  /* background-color: gray; */
+  background-color: rgba(50,50,50);
   /* border-radius: 1vh; */
   box-sizing: border-box;
   flex: 0 0 auto;
@@ -603,7 +607,7 @@ li:nth-of-type(7) {
   /* border-radius: 1vh; */
   height: 10vh;
   font-family: "eurostile-extended", sans-serif;
-  font-weight: 400;
+  font-weight: 900;
   font-style: normal;
   position: sticky;
   top: 0;
@@ -659,8 +663,8 @@ li:nth-of-type(7) {
   /* column-count: 2; */
   height: fit-content;
   /* background-color: rgb(205, 205, 205); */
-  background-color: whitesmoke;
-  color: rgba(50, 50, 50);
+  color: whitesmoke;
+  background-color: rgba(50, 50, 50);
   /* color: whitesmoke; */
   line-height: 125%;
   hyphens: auto;
@@ -824,6 +828,18 @@ summary {
     font-size: 3vh;
     height: auto;
     padding-bottom: 1vh;
+    /* width: 50%; */
+  }
+
+  .sub_chapter {
+    /* width: 90vw; */
+    /* margin-left: 5vw;
+    margin-right: 5vw; */
+    /* display: inline !important; */
+  }
+
+  h2.dot {
+    width: auto;
   }
 
   .wrapper {
@@ -848,13 +864,13 @@ summary {
     /* display: none; */
   }
 
-  #map {
+  /* #map {
     width: 100vw;
     height: 100vh;
     background-color: red;
-    /* bottom: 0; */
+    bottom: 0;
     z-index: 998;
-  }
+  } */
 
   #dot_wrapper {
     height: 100%;
@@ -875,12 +891,11 @@ summary {
     }
   }
 
-  .clock {
+  /* .clock {
     display: none;
-  }
+  } */
 
-  .line {
-  }
+
 
   .title h2:nth-of-type(1) {
     /* max-width: 15vw; */
