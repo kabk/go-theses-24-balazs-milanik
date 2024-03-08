@@ -250,8 +250,8 @@ figure video {
 }
 
 figcaption {
-  background-color: #1c75bc;
-  color: aliceblue;
+  background-color: grey;
+  color: rgba(50, 50, 50);
   padding-left: 5vw;
   padding-right: 5vw;
   height: auto;
@@ -261,13 +261,15 @@ figcaption {
   max-height: 100%;
   line-height: 110%;
   font-family: "eurostile", sans-serif;
+  font-weight: 500;
   padding-top: 1vh;
   padding-bottom: 1.5vh;
   /* background-color: black; */
 }
 
 figcaption .reference-toggle {
-  color: whitesmoke;
+  color:firebrick !important;
+  font-weight: 600;
 }
 
 header {
@@ -301,7 +303,7 @@ header .dot:hover {
 }
 
 header .dot.active {
-  background-color: red;
+  background-color: firebrick;
   border-color: black;
 }
 
@@ -337,7 +339,7 @@ header > p {
 }
 
 figcaption > p {
-  color: lightblue;
+  /* color: lightblue; */
 }
 
 blockquote {
@@ -385,11 +387,11 @@ svg {
 }
 
 #door_1.side {
-  background-color: transparent;
+  background-color: gray;
 }
 
 #door_2.side {
-  background-color: transparent;
+  background-color: gray;
 }
 
 #door_1 img {
@@ -679,7 +681,7 @@ li:nth-of-type(7) {
   font-size: 1.12rem;
   top: 0;
   font-family: "eurostile", sans-serif;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-style: normal;
   margin-left: 11vw;
   width: 48vw;
@@ -705,13 +707,20 @@ li:nth-of-type(7) {
 }
 
 figcaption .reference.active {
-  color: whitesmoke;
+  background-color: firebrick;
+  color: rgba(50, 50, 50) !important;
+  font-weight: bold;
+  border-left: 4pt rgba(50, 50, 50) solid;
+  border-right: 4pt rgba(50, 50, 50) solid;
+  width: 100%;
 }
 
 .reference.active {
   /* background-color:#1c75bc; */
   /* color: whitesmoke; */
-  color: #1c75bc;
+  color:whitesmoke;
+  width: 100%;
+  background-color: #1c75bc;
   font-family: "eurostile", sans-serif;
   font-size: 1.12rem;
   /* text-align: justify; */
@@ -731,7 +740,7 @@ figcaption .reference.active {
   max-width: 100%; /* Adjust as needed */
   max-height: 100%; /* Adjust as needed */
   opacity: 1;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 .reference.active:hover {
@@ -744,7 +753,11 @@ figcaption .reference.active {
 }
 
 .reference-toggle:hover {
-  color: red;
+  color:firebrick;
+}
+
+figcaption .reference-toggle:hover {
+  color: #1c75bc !important;
 }
 
 /* PAGE STYLES */
@@ -1036,7 +1049,7 @@ summary {
   }
 
   figcaption {
-    font-size: 0.8rem;
+    font-size: 1rem;
     min-width: 90vw;
   }
 
