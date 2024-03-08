@@ -395,12 +395,12 @@ svg {
 }
 
 #door_1 img {
-  background-color: transparent;
+  /* background-color: transparent; */
   min-width: 100%;
 }
 
 #door_2 img {
-  background-color: transparent;
+  /* background-color: transparent; */
   min-width: 100%;
 }
 
