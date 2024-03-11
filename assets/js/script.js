@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const loadedSVGs = [];
 
       // Load each SVG file into the side div
-      for (let i = 0; i < 5; i++) {
+      for (let i = 0; i < 4; i++) {
           const index = startIndex + i;
           if (index >= svgFiles.length) break;
 
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
           // Apply styles to the img element
           svgImage.style.height = '15vh';
-          svgImage.style.width = '15vw';
+          // svgImage.style.width = '15vw';
           svgImage.style.position = 'sticky';
           svgImage.style.top = '0';
 
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Array to hold the names of SVG files
   const svgFiles = [];
-  for (let i = 200; i <= 950; i++) {
+  for (let i = 200; i <= 910; i++) {
       svgFiles.push(`a${i}.svg`);
   }
 

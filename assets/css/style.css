@@ -639,7 +639,7 @@ li:nth-of-type(7) {
 .center .side {
   display: flex;
   border-radius: 1vh;
-  justify-content: space-around;
+  justify-content: center;
   position: sticky;
   top: 0;
   min-width: 70vw;
