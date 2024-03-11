@@ -669,7 +669,6 @@ li:nth-of-type(7) {
 } */
 
 .main {
-  text-indent: 1rem;
   position: relative;
   /* column-count: 2; */
   height: fit-content;

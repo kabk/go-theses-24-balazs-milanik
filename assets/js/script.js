@@ -3,6 +3,9 @@ $(document).ready(function () {
   $('.preloader').show();
 });
 
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
 // Hide preloader when everything is loaded
 $(window).on('load', function () {
   $('.preloader').fadeOut('slow', function () {
