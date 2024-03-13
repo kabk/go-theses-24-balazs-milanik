@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.89 70.5">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.73 70.5">
   <defs>
     <style>
       .cls-1 {
-        fill: #262262;
+        fill: #00aeef;
         stroke-width: 0px;
       }
     </style>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
-    <polygon class="cls-1" points="21.98 70.5 0 0 28.91 0 50.89 70.5 21.98 70.5"/>
+    <rect class="cls-1" width="92.73" height="70.5" transform="translate(92.73 70.5) rotate(180)"/>
   </g>
 </svg>

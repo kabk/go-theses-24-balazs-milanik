@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 349.56 14.45">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 189.4 359.6">
   <defs>
     <style>
       .cls-1 {
@@ -9,6 +9,6 @@
     </style>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
-    <rect class="cls-1" width="349.56" height="14.45"/>
+    <polygon class="cls-1" points="68.85 359.6 0 0 17.46 0 189.4 359.6 68.85 359.6"/>
   </g>
 </svg>

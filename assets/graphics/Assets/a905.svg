@@ -1,84 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20.21 67.36">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.73 92.73">
   <defs>
     <style>
       .cls-1 {
-        fill: url(#linear-gradient);
-      }
-
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: #fff;
         stroke-width: 0px;
       }
-
-      .cls-2 {
-        fill: url(#linear-gradient-4);
-      }
-
-      .cls-3 {
-        fill: url(#linear-gradient-2);
-      }
-
-      .cls-4 {
-        fill: url(#linear-gradient-3);
-      }
-
-      .cls-5 {
-        fill: url(#linear-gradient-7);
-      }
-
-      .cls-6 {
-        fill: url(#linear-gradient-5);
-      }
-
-      .cls-7 {
-        fill: url(#linear-gradient-6);
-      }
     </style>
-    <linearGradient id="linear-gradient" x1="4742.83" y1="1662.55" x2="4720.77" y2="1723.17" gradientTransform="translate(-4721.7 -1659.18)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset=".14" stop-color="#adafb2"/>
-      <stop offset=".46" stop-color="#fff"/>
-      <stop offset=".72" stop-color="#cdcfd0"/>
-      <stop offset=".87" stop-color="#dcddde"/>
-      <stop offset="1" stop-color="#4f4f51"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-2" x1="4739.28" y1="1662.55" x2="4717.21" y2="1723.17" gradientTransform="translate(-4714.58 -1659.18)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset=".14" stop-color="#a5a7aa"/>
-      <stop offset=".46" stop-color="#f3f4f4"/>
-      <stop offset=".72" stop-color="#c4c6c8"/>
-      <stop offset=".87" stop-color="#dcddde"/>
-      <stop offset="1" stop-color="#4f4f51"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-3" x1="4733.51" y1="1662.83" x2="4711.66" y2="1722.88" gradientTransform="translate(-4703.26 -1659.18)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset=".14" stop-color="#8c8e90"/>
-      <stop offset=".46" stop-color="#d3d5d6"/>
-      <stop offset=".72" stop-color="#939598"/>
-      <stop offset=".87" stop-color="#dcddde"/>
-      <stop offset="1" stop-color="#4f4f51"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-4" x1="4742.17" y1="1672.36" x2="4707.77" y2="1713.36" gradientTransform="translate(-4708.03 -1659.18)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset=".14" stop-color="#a5a7aa"/>
-      <stop offset=".46" stop-color="#d3d5d6"/>
-      <stop offset=".72" stop-color="#c2c4c6"/>
-      <stop offset=".87" stop-color="#dcddde"/>
-      <stop offset="1" stop-color="#4f4f51"/>
-    </linearGradient>
-    <linearGradient id="linear-gradient-5" x1="-254.37" y1="1662.55" x2="-276.43" y2="1723.17" gradientTransform="translate(271.95 1726.54) scale(1 -1)" xlink:href="#linear-gradient-2"/>
-    <linearGradient id="linear-gradient-6" x1="-260.13" y1="1662.83" x2="-281.99" y2="1722.88" gradientTransform="translate(271.95 1726.54) scale(1 -1)" xlink:href="#linear-gradient-3"/>
-    <linearGradient id="linear-gradient-7" x1="-251.47" x2="-285.88" y2="1713.36" gradientTransform="translate(271.95 1726.54) scale(1 -1)" xlink:href="#linear-gradient-4"/>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
-    <g>
-      <rect class="cls-1" x="8.33" width="3.56" height="67.36" transform="translate(20.21 67.36) rotate(180)"/>
-      <rect class="cls-3" x="11.88" width="3.56" height="67.36" transform="translate(27.32 67.36) rotate(180)"/>
-      <rect class="cls-4" x="18.43" width="1.78" height="67.36" transform="translate(38.64 67.36) rotate(180)"/>
-      <rect class="cls-2" x="15.44" width="2.99" height="67.36" transform="translate(33.87 67.36) rotate(180)"/>
-      <rect class="cls-6" x="4.77" width="3.56" height="67.36"/>
-      <rect class="cls-7" width="1.78" height="67.36"/>
-      <rect class="cls-5" x="1.78" width="2.99" height="67.36"/>
-    </g>
+    <rect class="cls-1" width="92.73" height="92.73" transform="translate(92.73 92.73) rotate(180)"/>
   </g>
 </svg>

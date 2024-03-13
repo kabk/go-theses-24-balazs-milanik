@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1641.12 46.04">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.67 168.51">
   <defs>
     <style>
       .cls-1 {
-        fill: #808285;
-        stroke-width: 0px;
+        fill: #ed1c24;
+        stroke: #594a42;
+        stroke-miterlimit: 10;
       }
     </style>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
-    <rect class="cls-1" width="1641.12" height="46.04"/>
+    <g>
+      <rect class="cls-1" x="-80.12" y="81.12" width="167.51" height="6.26" transform="translate(-80.62 87.88) rotate(-90)"/>
+      <rect class="cls-1" x="-73.86" y="81.12" width="167.51" height="6.26" transform="translate(-74.36 94.14) rotate(-90)"/>
+      <rect class="cls-1" x="-67.5" y="81.12" width="167.51" height="6.26" transform="translate(-68 100.51) rotate(-90)"/>
+      <rect class="cls-1" x="-61.24" y="81.12" width="167.51" height="6.26" transform="translate(-61.74 106.77) rotate(-90)"/>
+      <rect class="cls-1" x="-54.98" y="81.12" width="167.51" height="6.26" transform="translate(-55.48 113.03) rotate(-90)"/>
+      <rect class="cls-1" x="-48.72" y="81.12" width="167.51" height="6.26" transform="translate(-49.22 119.29) rotate(-90)"/>
+    </g>
   </g>
 </svg>

@@ -1,14 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 184.81 86.6">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 57.43 191.4">
   <defs>
     <style>
       .cls-1 {
-        fill: #fff;
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
         stroke-width: 0px;
       }
+
+      .cls-2 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-6);
+      }
     </style>
+    <linearGradient id="linear-gradient" x1="4781.76" y1="1132.75" x2="4719.06" y2="1305.01" gradientTransform="translate(-4721.7 -1123.17)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".14" stop-color="#adafb2"/>
+      <stop offset=".46" stop-color="#fff"/>
+      <stop offset=".72" stop-color="#cdcfd0"/>
+      <stop offset=".87" stop-color="#dcddde"/>
+      <stop offset="1" stop-color="#4f4f51"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="4771.66" y1="1132.75" x2="4708.96" y2="1305.01" gradientTransform="translate(-4701.48 -1123.17)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".14" stop-color="#a5a7aa"/>
+      <stop offset=".46" stop-color="#f3f4f4"/>
+      <stop offset=".72" stop-color="#c4c6c8"/>
+      <stop offset=".87" stop-color="#dcddde"/>
+      <stop offset="1" stop-color="#4f4f51"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="4755.28" y1="1133.56" x2="4693.17" y2="1304.2" gradientTransform="translate(-4669.32 -1123.17)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".14" stop-color="#8c8e90"/>
+      <stop offset=".46" stop-color="#d3d5d6"/>
+      <stop offset=".72" stop-color="#939598"/>
+      <stop offset=".87" stop-color="#dcddde"/>
+      <stop offset="1" stop-color="#4f4f51"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="4779.88" y1="1160.62" x2="4682.12" y2="1277.13" gradientTransform="translate(-4682.87 -1123.17)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".14" stop-color="#a5a7aa"/>
+      <stop offset=".46" stop-color="#d3d5d6"/>
+      <stop offset=".72" stop-color="#c2c4c6"/>
+      <stop offset=".87" stop-color="#dcddde"/>
+      <stop offset="1" stop-color="#4f4f51"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="-221.99" y1="1132.75" x2="-284.69" y2="1305.01" gradientTransform="translate(271.95 1314.58) scale(1 -1)" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-6" x1="-238.37" y1="1133.56" x2="-300.48" y2="1304.2" gradientTransform="translate(271.95 1314.58) scale(1 -1)" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-7" x1="-213.76" x2="-311.53" y2="1277.13" gradientTransform="translate(271.95 1314.58) scale(1 -1)" xlink:href="#linear-gradient-4"/>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
-    <ellipse class="cls-1" cx="92.41" cy="43.3" rx="92.41" ry="43.3"/>
+    <g>
+      <rect class="cls-1" x="23.66" width="10.11" height="191.4" transform="translate(57.43 191.4) rotate(180)"/>
+      <rect class="cls-3" x="33.77" width="10.11" height="191.4" transform="translate(77.64 191.4) rotate(180)"/>
+      <rect class="cls-4" x="52.38" width="5.05" height="191.4" transform="translate(109.81 191.4) rotate(180)"/>
+      <rect class="cls-2" x="43.87" width="8.5" height="191.4" transform="translate(96.25 191.4) rotate(180)"/>
+      <rect class="cls-6" x="13.56" width="10.11" height="191.4"/>
+      <rect class="cls-7" width="5.05" height="191.4"/>
+      <rect class="cls-5" x="5.05" width="8.5" height="191.4"/>
+    </g>
   </g>
 </svg>

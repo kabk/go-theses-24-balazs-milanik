@@ -1,21 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 87.83 855.38">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 212.17 92.73">
   <defs>
     <style>
-      .cls-1 {
-        fill: url(#linear-gradient);
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-4 {
         stroke-width: 0px;
       }
+
+      .cls-2 {
+        stroke-width: 4px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #231f20;
+      }
+
+      .cls-4 {
+        fill: url(#Scotch_Rule_6);
+      }
     </style>
-    <linearGradient id="linear-gradient" x1="4524.88" y1="-1143.62" x2="4524.88" y2="-288.24" gradientTransform="translate(-4480.96 1143.62)" gradientUnits="userSpaceOnUse">
-      <stop offset=".04" stop-color="#231f20"/>
-      <stop offset=".16" stop-color="#ead795"/>
-      <stop offset=".59" stop-color="#fff"/>
-      <stop offset=".88" stop-color="#fff"/>
-      <stop offset="1" stop-color="#231f20"/>
-    </linearGradient>
+    <pattern id="Scotch_Rule_6" data-name="Scotch Rule 6" x="0" y="0" width="74.06" height="72" patternTransform="translate(1855.37 -717.73)" patternUnits="userSpaceOnUse" viewBox="0 0 74.06 72">
+      <g>
+        <rect class="cls-1" width="74.06" height="72"/>
+        <line class="cls-2" x1="24.98" y1="72" x2="24.98"/>
+        <line class="cls-2" x1="6.49" y1="72" x2="6.49"/>
+        <line class="cls-2" x1="43.47" y1="72" x2="43.47"/>
+        <line class="cls-2" x1="61.96" y1="72" x2="61.96"/>
+        <line class="cls-3" x1="12.09" y1="72" x2="12.09"/>
+        <line class="cls-3" x1="30.58" y1="72" x2="30.58"/>
+        <line class="cls-3" x1="49.07" y1="72" x2="49.07"/>
+        <line class="cls-3" x1="67.56" y1="72" x2="67.56"/>
+      </g>
+    </pattern>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
-    <rect class="cls-1" width="87.83" height="855.38" transform="translate(87.83 855.38) rotate(180)"/>
+    <polygon class="cls-4" points="212.17 92.73 212.17 0 0 0 0 92.73 212.17 92.73"/>
   </g>
 </svg>

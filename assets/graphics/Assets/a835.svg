@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 143.61 105.63">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 145.7 359.6">
   <defs>
     <style>
       .cls-1 {
-        letter-spacing: -.07em;
-      }
-
-      .cls-2 {
-        fill: #fff;
-        font-family: Helvetica-Bold, Helvetica;
-        font-size: 14px;
-        font-weight: 700;
+        fill: #f15a29;
+        stroke-width: 0px;
       }
     </style>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
-    <text class="cls-2" transform="translate(0 12.93)"><tspan x="0" y="0">KIJÁR</tspan><tspan class="cls-1" x="42.01" y="0">A</tspan><tspan x="51.08" y="0">T</tspan><tspan x="0" y="16.8">EXIT</tspan></text>
+    <polygon class="cls-1" points="52.97 359.6 0 0 13.43 0 145.7 359.6 52.97 359.6"/>
   </g>
 </svg>

@@ -28,7 +28,7 @@
         stroke-miterlimit: 10;
       }
     </style>
-    <pattern id="Scotch_Rule_2" data-name="Scotch Rule 2" x="0" y="0" width="70.8" height="72" patternTransform="translate(-1684.97 -1259.61)" patternUnits="userSpaceOnUse" viewBox="0 0 70.8 72">
+    <pattern id="Scotch_Rule_2" data-name="Scotch Rule 2" x="0" y="0" width="70.8" height="72" patternTransform="translate(-1019.89 -1259.61)" patternUnits="userSpaceOnUse" viewBox="0 0 70.8 72">
       <g>
         <rect class="cls-1" x="0" width="70.8" height="72"/>
         <line class="cls-2" x1="35.4" y1="72" x2="35.4"/>

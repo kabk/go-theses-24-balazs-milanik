@@ -3,12 +3,12 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #fff;
+        fill: #be1e2d;
         stroke-width: 0px;
       }
     </style>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
-    <rect class="cls-1" width="92.73" height="92.73" transform="translate(92.73 92.73) rotate(180)"/>
+    <rect class="cls-1" width="92.73" height="92.73"/>
   </g>
 </svg>

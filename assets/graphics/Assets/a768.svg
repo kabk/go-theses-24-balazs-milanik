@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133.68 492.03">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 180.8 194.87">
   <defs>
     <style>
       .cls-1 {
-        fill: #262262;
+        fill: url(#Orange_Yellow);
         stroke-width: 0px;
       }
     </style>
+    <linearGradient id="Orange_Yellow" data-name="Orange, Yellow" x1="90.4" y1="194.87" x2="90.4" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff33b"/>
+      <stop offset=".04" stop-color="#fee62d"/>
+      <stop offset=".12" stop-color="#fdd51b"/>
+      <stop offset=".2" stop-color="#fdca0f"/>
+      <stop offset=".28" stop-color="#fdc70c"/>
+      <stop offset=".67" stop-color="#f3903f"/>
+      <stop offset=".89" stop-color="#ed683c"/>
+      <stop offset="1" stop-color="#e93e3a"/>
+    </linearGradient>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
-    <path class="cls-1" d="m133.68,492.03v-55.75c0-9.63-5.01-18.87-13.93-25.68-.05-.04-.09-.07-.14-.11-18.81-14.36-37.62-28.72-56.43-43.08C45.52,247.53,27.87,127.66,10.21,7.8L0,0v10.25l10.21,7.8,52.97,420.15,70.5,53.83Z"/>
+    <rect class="cls-1" width="180.8" height="194.87"/>
   </g>
 </svg>

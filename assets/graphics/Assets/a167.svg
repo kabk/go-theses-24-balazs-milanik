@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45.7 158.47">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115.8 395.03">
   <defs>
     <style>
       .cls-1 {
-        fill: #ed1c24;
-        stroke: #594a42;
-        stroke-miterlimit: 10;
+        fill: #be1e2d;
+        stroke-width: 0px;
       }
     </style>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
-    <rect class="cls-1" x=".5" y=".5" width="44.7" height="157.47"/>
+    <polyline class="cls-1" points="115.8 395.03 0 13.32 0 0 115.8 351.99"/>
   </g>
 </svg>
