@@ -674,6 +674,8 @@ li:nth-of-type(7) {
   height: fit-content;
   /* background-color: rgb(205, 205, 205); */
   color: whitesmoke;
+  text-align: left;
+  text-justify: inter-word;
   background-color: rgba(50, 50, 50);
   /* color: whitesmoke; */
   line-height: 125%;
