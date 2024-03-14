@@ -243,6 +243,8 @@ figure {
 figure img {
   width: 100%;
   padding-bottom: 1vw;
+  border-left: 2vw solid rgba(50, 50, 50);
+  border-right: 2vw solid rgba(50, 50, 50);
 }
 
 figure video {
@@ -256,7 +258,7 @@ figcaption {
   padding-right: 5vw;
   height: auto;
   font-size: 1.12rem;
-  max-width: 50vw;
+  max-width: 100%;
   margin: auto;
   max-height: 100%;
   line-height: 110%;
@@ -268,7 +270,7 @@ figcaption {
 }
 
 figcaption .reference-toggle {
-  color:firebrick !important;
+  color: firebrick !important;
   font-weight: 600;
 }
 
@@ -673,26 +675,36 @@ li:nth-of-type(7) {
   /* column-count: 2; */
   height: fit-content;
   /* background-color: rgb(205, 205, 205); */
-  color: whitesmoke;
-  text-align: left;
+  background-color: gray;
+  color: rgba(50, 50, 50);
+  /* color: gray; */
+  /* text-align: left; */
+  /* text-align: justify; */
   text-justify: inter-word;
-  background-color: rgba(50, 50, 50);
+  border-left: 2vw solid rgba(50, 50, 50);
+  border-right: 2vw solid rgba(50, 50, 50);
+  /* background-color: rgba(50, 50, 50); */
+  /* background-color: white; */
   /* color: whitesmoke; */
   line-height: 125%;
   hyphens: auto;
   font-size: 1.12rem;
   top: 0;
   font-family: "eurostile", sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-weight: bold;
+  /* font-family: "owners-text", sans-serif; */
   /* font-weight: 400; */
+  /* font-style: normal; */
   font-style: normal;
   margin-left: 11vw;
   width: 48vw;
   box-sizing: border-box;
   padding-bottom: 8vh;
   padding-top: 4vh;
-  padding-left: 5vw;
-  padding-right: 4.2vw;
-  font-weight: bold;
+  padding-left: 3vw;
+  padding-right: 2.2vw;
+  font-weight: medium;
   z-index: 998;
   margin-top: 1vh;
   margin-bottom: 1vh;
@@ -720,7 +732,7 @@ figcaption .reference.active {
 .reference.active {
   /* background-color:#1c75bc; */
   /* color: whitesmoke; */
-  color:whitesmoke;
+  color: whitesmoke;
   width: 100%;
   background-color: #1c75bc;
   font-family: "eurostile", sans-serif;
@@ -755,7 +767,7 @@ figcaption .reference.active {
 }
 
 .reference-toggle:hover {
-  color:firebrick;
+  color: firebrick;
 }
 
 figcaption .reference-toggle:hover {
@@ -1046,7 +1058,7 @@ summary {
   }
 
   figure img {
-    min-width: 100%;
+    /* min-width: 100%; */
   }
 
   figure video {
