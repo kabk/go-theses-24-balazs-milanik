@@ -167,6 +167,30 @@ p:hover {
   background-color: #1c75bc !important;
 }
 
+.end_chapter {
+  display: flex;
+  justify-content: space-around; /* Aligns items at the start and end of the container */
+  background-color: grey;
+}
+
+.end_chapter div {
+  /* Remove width property */
+  font-family: "eurostile-extended", sans-serif;
+  text-align: center;
+  background-color: gray;
+  color: rgba(50, 50, 50);
+  cursor: pointer;
+  width: 100%;
+  height: 10vh;
+  font-size: 6vh;
+}
+
+.end_chapter div:hover {
+  color: gray;
+  background-color: rgba(50, 50, 50);
+}
+
+
 /* h1 {
   display: flex;
   align-items: center;
@@ -388,12 +412,22 @@ svg {
   border-radius: 10vh;
 }
 
+#door_1 img {
+  opacity: 0;
+}
+
+#door_2 img {
+  opacity: 0;
+}
+
 #door_1.side {
-  background-color: gray;
+  /* background-color: gray; */
+  background-color: black;
 }
 
 #door_2.side {
-  background-color: gray;
+  /* background-color: gray; */
+  background-color: black;
 }
 
 #door_1 img {
@@ -742,8 +776,8 @@ figcaption .reference.active {
   margin-top: 1vh;
   margin-bottom: 1vh;
   /* border-radius: 1vh; */
-  border-left: 4pt grey solid;
-  border-right: 4pt grey solid;
+  border-left: 4pt rgba(50, 50, 50) solid;
+  border-right: 4pt rgba(50, 50, 50) solid;
   word-break: break-word;
   line-height: 125%;
   hyphens: auto;
@@ -825,6 +859,7 @@ summary {
     z-index: 999;
     bottom: 0;
     left: -50vw;
+    background-color: black;
     /* background-color: aqua; */
     transition: left 0.5s ease-in-out;
     overflow: hidden; /* Ensure SVG doesn't overflow */
@@ -847,21 +882,23 @@ summary {
   }
 
   #door_1 img {
-    background-color: transparent;
-    min-width: 100%;
+    /* min-width: 100%; */
+    opacity: 0;
   }
 
   #door_2 img {
-    background-color: transparent;
-    min-width: 100%;
+    opacity: 0;
+    /* min-width: 100%; */
   }
 
   #door_1.side {
     display: block;
+    background-color: black;
   }
 
   #door_2.side {
     display: block;
+    background-color: black;
   }
 
   .sub_chapter {
