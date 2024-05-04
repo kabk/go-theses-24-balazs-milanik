@@ -151,9 +151,9 @@ p:hover {
 }
 
 .sub_chapter h2 {
-  color: rgba(50, 50, 50, 1);
+  color: whitesmoke;
   /* padding-left: 5vw; */
-  background-color: gray !important;
+  background-color:#1c75bc !important;
   font-family: "eurostile-extended", sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -629,6 +629,11 @@ li:nth-of-type(7) {
   /* filter: invert(1); */
   /* color: inherit;  */
   stroke: 0;
+  transition: filter 0.5s ease;
+}
+
+.side img:hover {
+  filter: brightness(100%);
 }
 
 /* .row .side:nth-of-type(2) h2{
