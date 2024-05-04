@@ -619,9 +619,16 @@ li:nth-of-type(7) {
 
 .side img {
   border-top: 1pt black solid;
-  background-color: transparent;
-  color: inherit; /* Inherit color */
-  stroke: currentColor; /* Use current color for stroke */
+  /* background-color: transparent; */
+  color:#1c75bc;
+  /* filter: hue-rotate(180deg); */
+  filter: brightness(0);
+  /* filter: saturate(0%); */
+  /* filter: sepia(50%); */
+  /* filter: blur(50%); */
+  /* filter: invert(1); */
+  /* color: inherit;  */
+  stroke: 0;
 }
 
 /* .row .side:nth-of-type(2) h2{
