@@ -151,9 +151,9 @@ p:hover {
 }
 
 .sub_chapter h2 {
-  color: whitesmoke;
+  color: rgba(50, 50, 50, 1);
   /* padding-left: 5vw; */
-  background-color:#1c75bc !important;
+  background-color: gray !important;
   font-family: "eurostile-extended", sans-serif;
   font-weight: 900;
   font-style: normal;
