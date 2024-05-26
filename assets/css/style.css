@@ -946,8 +946,8 @@ summary {
     height: auto;
     padding-bottom: 1vh;
     width: fit-content;
-    background-color: firebrick !important;
-    color: whitesmoke !important;
+    /* background-color: firebrick !important; */
+    /* color: whitesmoke !important; */
     /* width: 50%; */
   }
 
@@ -955,7 +955,8 @@ summary {
     display: block !important;
     margin-left: 5vw;
     width: 15vw;
-    background-color: #1c75bc !important;
+    background-color: rgba(50, 50, 50) !important;
+    color: gray;
   }
 
   .sub_chapter h2:nth-of-type(2) {
