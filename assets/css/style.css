@@ -157,6 +157,7 @@ p:hover {
   font-family: "eurostile-extended", sans-serif;
   font-weight: 900;
   font-style: normal;
+  font-size: 5vh;
   /* color: whitesmoke; */
   /* margin-left: 11vw; */
   /* margin-right: 11vw; */
@@ -537,6 +538,7 @@ li {
   box-sizing: border-box;
   max-height: 95vh;
   overflow-y: scroll;
+  overflow-x: hidden;
   /* height: 95vh; */
 }
 
@@ -658,7 +660,7 @@ li:nth-of-type(7) {
   z-index: 999;
   justify-content: right;
   padding-right: 1vw;
-  font-size: 6vh;
+  font-size: 5vh;
   background-color: rgba(50, 50, 50);
   /* background-color: #1c75bc; */
   color: gray;
