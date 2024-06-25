@@ -542,6 +542,10 @@ li {
   /* height: 95vh; */
 }
 
+li::-webkit-scrollbar {
+  display: none;
+}
+
 li:nth-of-type(1) {
   /* -webkit-animation: linear infinite; */
   -webkit-animation-name: run;
