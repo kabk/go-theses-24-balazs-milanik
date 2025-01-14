@@ -43,7 +43,7 @@ $(document).ready(function () {
           door1.style.left = "-50vw";
           door2.style.right = "-50vw";
           // map.style.display = "none";
-      }, 2500);
+      }, 1250);
   }
 });
 
@@ -51,8 +51,8 @@ function scrollToSection(sectionIndex) {
   const sections = document.querySelectorAll(".wrapper li");
   const targetSection = sections[sectionIndex];
   setTimeout(() => {
-      targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
-  }, 1500);
+      targetSection.scrollIntoView({ behavior: "instant", block: "start" });
+  }, 750);
 }
 
 function togglediv() {
